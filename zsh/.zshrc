@@ -12,7 +12,7 @@ FZF_DEFAULT_OPTS="--bind='ctrl-o:execute(vim {})+abort'"
 
 # Custom ENVs
 
-export PATH=~/.local/bin:$PATH
+export PATH=~/.local/bin:~/.cargo/bin:$PATH
 export TERM="screen-256color"
 
 # Prompt Theme
