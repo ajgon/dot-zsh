@@ -6,10 +6,10 @@ source "${XDG_CONFIG_HOME}/zsh/git.zsh"
 source "${XDG_CONFIG_HOME}/zsh/history.zsh"
 source "${XDG_CONFIG_HOME}/zsh/key-bindings.zsh"
 
-FZF_MARKER_CONF_DIR="${XDG_CONFIG_HOME}/markers"
-FZF_MARKER_COMMENT_COLOR="$fg[blue]"
-FZF_DEFAULT_OPTS="--bind='ctrl-o:execute(vim {})+abort'"
-GATSBY_TELEMETRY_DISABLED=1
+export FZF_MARKER_CONF_DIR="${XDG_CONFIG_HOME}/markers"
+export FZF_MARKER_COMMENT_COLOR="$fg[blue]"
+export FZF_DEFAULT_OPTS="--bind='ctrl-o:execute(vim {})+abort'"
+export GATSBY_TELEMETRY_DISABLED=1
 
 # Custom ENVs
 
